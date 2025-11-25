@@ -7,8 +7,8 @@ from selenium.webdriver.edge.options import Options as EdgeOptions
 baseURL = "https://practicetestautomation.com/practice-test-login/"
 okUser = "student"
 okPass = "Password123"
-incorrectUser = "incorrectUser"
-incorrectPass = "incorrectPassword"
+incorrectUser = "labudab"
+incorrectPass = "labudab12345"
 
 def make_driver():
     driver = webdriver.Edge()
